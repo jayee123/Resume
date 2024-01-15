@@ -1,0 +1,51 @@
+body {
+	background-color: #636563;
+	text-align: center;
+}
+div#wrapper {
+	width: 600px;
+	margin: 0 auto;
+}
+div#title {
+	height: 100px;
+	background-color: #efefe7;
+	padding: 10px;
+	border-bottom: 1px solid #000;
+}
+img#title_img {
+	float: left;
+}
+h1 {
+	margin-top: 30px;
+	font-weight: bold;
+	font-family: 標楷體;
+	font-size: 20pt;
+}
+div#maintext {
+	background-color:white;
+	font-size: 16px;
+	padding: 10px;
+	text-align: left;
+}
+div#navigation {
+	padding: 10px;
+	text-align: right;
+}
+ul {
+	list-style:none;
+}
+li {
+ 	width: 90%;
+	padding: 10px;
+}
+.odd {
+ 	background-color: lightGrey;
+}
+.even {
+ 	background-color: darkGray;
+}
+
+a{
+	color: rgb(121, 121, 94);
+	
+}
