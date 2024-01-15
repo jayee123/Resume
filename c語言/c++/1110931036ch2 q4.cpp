@@ -1,0 +1,11 @@
+#include<stdio.h>
+main(void) 
+{
+	printf("我\n");
+	printf("也\n");
+	printf("會\n");
+	printf("寫\n");
+	printf("C\n");
+	printf("程\n");
+	printf("式");
+}
