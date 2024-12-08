@@ -1,0 +1,66 @@
+/*from https://medium.com/@magic9701/%E4%BE%86%E5%81%9A%E5%80%8Bloading-spinner%E5%90%A7-6db80a153040*/
+
+.background {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.656);
+	position: fixed;
+	z-index: 10;
+}
+
+.spinner {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	z-index: 9;
+}
+
+.word {
+	font-size: 32px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 900;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.spinnerSector {
+	position: absolute;
+	width: 90%;
+	height: 90%;
+	border-radius: 50%;
+	border: 10px solid transparent;
+	mix-blend-mode: overlay;
+	animation: rotate var(--duration) var(--timeout) infinite;
+}
+
+.spinnerBlue {
+	border-top-color: lightblue;
+	--duration: 2s;
+	--timeout: ease-in;
+}
+
+.spinnerRed {
+	border-left-color: lightcoral;
+	--duration: 1.7s;
+	--timeout: ease-in-out;
+}
+
+.spinnerGreen {
+	border-right-color: lightgreen;
+	--duration: 2.7s;
+	--timeout: ease-out;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
