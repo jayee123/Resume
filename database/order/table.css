@@ -1,0 +1,79 @@
+.mytable {
+	width: 90%;
+	margin: 20px auto;
+	border: 1px solid black;
+}
+
+.mytable .title{
+	background-color: #ACD6FF;
+	font-weight: bolder;
+}
+
+.mytable .none{
+	background-color: #FFE6D9;
+}
+
+.mytable .ing{
+	background-color: #ECFFFF;
+}
+
+.mytable td {
+	text-align: center;
+	border: 1px solid white;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+.mytable tr:hover {
+	background-color: #FFFFDF;
+}
+
+a {
+	text-decoration: none;
+}
+
+.new_btn {
+	width:100px;
+	background-color: #ACD6FF;
+	padding: 10px;
+	text-align: center;
+	margin-left: 20%
+}
+
+.new_btn a {
+	color: white;
+	font-weight: bolder;
+}
+
+.new_btn button {
+	color: white;
+	font-weight: bolder;
+	background-color: #ACD6FF;
+	border: none;
+}
+
+.new_btn button:hover,a:hover {
+	color: red;
+	cursor: pointer;
+}
+
+.value {
+  width: 50px;
+  text-align: center;
+  border: 0;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+}
+
+
+input.plus {
+  width: 25px;
+  border: 1px solid #aaa;
+  background: #f8f8f8;
+}
+
+input.minus {
+  width: 25px;
+  border: 1px solid #aaa;
+  background: #f8f8f8;
+}
