@@ -1,0 +1,79 @@
+body {
+    margin:0;
+}
+
+.title {
+    margin:0 0 20px 0;
+    height: 75px;
+    line-height: 75px;
+    background-color: lightblue;
+}
+
+.title h1 {
+    margin:0;
+}
+
+#time {
+    text-align: center;
+    font-size: 32px;
+}
+
+.btn {
+    line-height: 50px;
+    text-align: center;
+    background-color: lightblue;
+	font-weight: bolder;
+}
+
+.btn:hover {
+	background-color: #C4E1FF;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: red;
+}
+
+.menu table {
+    margin: 10px auto;
+}
+
+tr {
+    height: 50px;
+}
+
+td {
+    width: 20%;
+}
+
+#other {
+	position:relative;
+	padding:0px;
+}
+
+#other .box {
+	position:absolute;
+	z-index:10;
+	left:0px;
+	top:100%;
+	display:none;
+	width:100%;
+}
+
+#other .content {
+	height:50px;
+	width:100%;
+	background-color: #CAFFFF;
+}
+
+#other:hover .box {
+	display:block;
+}
+
+#other .content:hover{
+	background-color: #ECF5FF;
+}
