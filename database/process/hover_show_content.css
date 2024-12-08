@@ -1,0 +1,20 @@
+.box {
+  position: relative;
+}
+.content {
+  width:425px;
+  display: none;
+  text-align: left;
+  padding: 10px;
+}
+.box:hover .content{
+	z-index:1;
+	display: block;
+	position: absolute;
+	top: -150px;
+	left: 110%;
+	color: #fff;
+	font-size: 1em;
+	background: #346e7a;
+	border-radius: 5px;
+}
